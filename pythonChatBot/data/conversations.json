@@ -1,27 +1,62 @@
 [
   [
     "Hi",
-    "Hello! How can I assist you today?"
+    "Hello! I am your Study Flashcard Bot. Ask me any concept to test your knowledge!"
   ],
   [
-    "What is your name?",
-    "I am Craig, your custom assistant."
+    "Hello",
+    "Hi there! Ready to study? Ask me about Python, Databases, Git, or Web concepts."
   ],
   [
-    "What can you do?",
-    "I can chat with you, answer questions, calculate math problems, and help with common tasks."
+    "What is the difference between a list and a tuple in Python?",
+    "Lists are mutable (can be modified) and use square brackets []. Tuples are immutable (cannot be modified) and use parentheses ()."
   ],
   [
-    "Who created you?",
-    "I was built using Python and ChatterBot."
+    "What is a Python dictionary?",
+    "A dictionary is an unordered, mutable collection of key-value pairs written with curly braces {key: value}."
   ],
   [
-    "What are your working hours?",
-    "I am available 24/7 right here in your terminal or app."
+    "What is a list comprehension?",
+    "A list comprehension is a concise syntax for creating lists. Example: [x**2 for x in range(5)] creates [0, 1, 4, 9, 16]."
   ],
   [
-    "How can I add new knowledge to you?",
-    "You can add question-response pairs into data/conversations.json and run python src/train.py!"
+    "What is PEP 8?",
+    "PEP 8 is the official style guide for Python code, providing conventions for readability and formatting."
+  ],
+  [
+    "What does HTTP 200 mean?",
+    "HTTP 200 OK indicates that the request succeeded and the server returned the requested data."
+  ],
+  [
+    "What does HTTP 404 mean?",
+    "HTTP 404 Not Found indicates that the server cannot locate the requested resource."
+  ],
+  [
+    "What does HTTP 500 mean?",
+    "HTTP 500 Internal Server Error means the server encountered an unexpected error and could not fulfill the request."
+  ],
+  [
+    "What is an API?",
+    "API (Application Programming Interface) is a set of rules and protocols allowing different software applications to communicate with each other."
+  ],
+  [
+    "What is a primary key in a database?",
+    "A primary key is a column (or set of columns) that uniquely identifies each row in a database table."
+  ],
+  [
+    "What is the difference between SQL and NoSQL?",
+    "SQL databases are relational, structured with tables and schemas (e.g., PostgreSQL, SQLite). NoSQL databases are non-relational, flexible, and document-oriented (e.g., MongoDB)."
+  ],
+  [
+    "What does git commit do?",
+    "Git commit saves a snapshot of your staged changes to the repository history."
+  ],
+  [
+    "What does git push do?",
+    "Git push uploads your local commits to a remote repository (such as GitHub)."
+  ],
+  [
+    "What is Big O notation?",
+    "Big O notation is used to describe the time or space complexity of an algorithm as the input size (n) grows."
   ]
 ]
-
