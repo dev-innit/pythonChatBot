@@ -22,19 +22,11 @@ def create_chatbot():
         database_uri=f"sqlite:///{DB_PATH}",
         logic_adapters=[
             {
-                "import_path": "chatterbot.logic.MathematicalEvaluation",
-            },
-            {
-                "import_path": "chatterbot.logic.TimeLogicAdapter",
-            },
-            {
                 "import_path": "chatterbot.logic.BestMatch",
-                "default_response": "I'm not sure I understand yet. Could you try rephrasing or asking something else?",
                 "default_response": "I'm not sure I understand yet. Could you try rephrasing or asking another question?",
                 "maximum_similarity_threshold": 0.65,
             },
         ],
-        read_only=True,  # Set to True so untrained user inputs don't distort learned patterns
         read_only=True,
     )
 
@@ -42,7 +34,6 @@ def create_chatbot():
 def start_chat():
     print("=" * 55)
     print("🤖 ChatBot 'Craig' is ready! (Type 'quit' or 'exit' to leave)")
-    print("💡 Tip: Try asking questions, or math like 'what is 42 * 7'")
     print("💡 Tip: Try asking about Python, Git, HTTP codes, or databases!")
     print("=" * 55)
 

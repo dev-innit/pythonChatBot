@@ -21,3 +21,5 @@ __pycache__/
 .DS_Store
 *.log
 
+# Project Roadmap & Local Planning
+PROJECT_ROADMAP.md
