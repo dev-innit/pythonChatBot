@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# SQLite Databases & WAL/SHM files
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+*.log
+
